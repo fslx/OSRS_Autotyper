@@ -1,10 +1,17 @@
 # Installation
 
 # Unix/MacOS
-```py
+```sh
 python -m pip install -r requirements.txt
 ```
 # Windows
-```py
+```sh
 py -m pip install -r requirements.txt
+```
+
+# Usage
+
+```sh
+cd ./my_folder/
+python main.py
 ```
