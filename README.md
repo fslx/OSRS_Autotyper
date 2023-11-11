@@ -1,12 +1,10 @@
 # Installation
 
 # Unix/MacOS
-```python
-
+```py
 python -m pip install -r requirements.txt
 ```
 # Windows
-````python
+```py
 py -m pip install -r requirements.txt
-
-``
+```
