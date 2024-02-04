@@ -1,4 +1,4 @@
-import pyautogui as pgui
+import pyautogui as pygui
 import time
 
 pgui.FAILSAFE = True
@@ -12,8 +12,8 @@ def automate_messages(message: str):
     :rtype: function
     """
     message = get_message()
-    copy_content = pgui.hotkey("ctrl", "c")
-    paste_content = pgui.hotkey("ctrl", "v")
+    copy_content = pygui.hotkey("ctrl", "c")
+    paste_content = pygui.hotkey("ctrl", "v")
 
 def get_message():
     pass
